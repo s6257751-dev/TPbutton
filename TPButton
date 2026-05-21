@@ -7,34 +7,34 @@ local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 149, 0)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.217821777, 0, 0.372034967, 0)
-Frame.Size = UDim2.new(0, 219, 0, 159)
+Frame.Position = UDim2.new(0.159461379, 0, 0.214731589, 0)
+Frame.Size = UDim2.new(0, 284, 0, 195)
 
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0.0410958901, 0, 0.0411662944, 0)
-Frame_2.Size = UDim2.new(0, 202, 0, 146)
+Frame_2.Position = UDim2.new(0.0207552835, 0, 0.0324844755, 0)
+Frame_2.Size = UDim2.new(0, 272, 0, 183)
 
 TextButton.Parent = Frame_2
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 149, 0)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.152544379, 0, 0.33561644, 0)
-TextButton.Size = UDim2.new(0, 144, 0, 74)
+TextButton.Position = UDim2.new(0.171551511, 0, 0.271883428, 0)
+TextButton.Size = UDim2.new(0, 175, 0, 88)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "TP"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -42,31 +42,18 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 149, 0)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.0958904102, 0, 0.138364777, 0)
-TextLabel.Size = UDim2.new(0, 180, 0, -16)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "K0l1GUU V.TP"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
 ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BackgroundTransparency = 1.000
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
-ImageButton.Position = UDim2.new(0.384016961, 0, 0.247191012, 0)
-ImageButton.Size = UDim2.new(0, 100, 0, 100)
+ImageButton.Position = UDim2.new(0.0559886619, 0, 0.27965045, 0)
+ImageButton.Size = UDim2.new(0, 109, 0, 107)
 ImageButton.Image = "rbxassetid://129027737518656"
 
 -- Scripts:
 
-local function WWXBL_fake_script() -- TextButton.LocalScript 
+local function KOVSF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -92,8 +79,8 @@ local function WWXBL_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WWXBL_fake_script)()
-local function TBNKUAN_fake_script() -- Frame.LocalScript 
+coroutine.wrap(KOVSF_fake_script)()
+local function PNSLJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService('UserInputService')
@@ -167,8 +154,8 @@ local function TBNKUAN_fake_script() -- Frame.LocalScript
 	
 	
 end
-coroutine.wrap(TBNKUAN_fake_script)()
-local function RIWDWT_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(PNSLJ_fake_script)()
+local function FXHTLFZ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local button = script.Parent
@@ -198,8 +185,8 @@ local function RIWDWT_fake_script() -- ImageButton.LocalScript
 	-- Используем событие Activated для ImageButton (поддерживает клик)
 	button.Activated:Connect(toggleGUI)
 end
-coroutine.wrap(RIWDWT_fake_script)()
-local function PRMXF_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(FXHTLFZ_fake_script)()
+local function FMMSJ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local UIS = game:GetService('UserInputService')
@@ -273,4 +260,4 @@ local function PRMXF_fake_script() -- ImageButton.LocalScript
 	
 	
 end
-coroutine.wrap(PRMXF_fake_script)()
+coroutine.wrap(FMMSJ_fake_script)()
